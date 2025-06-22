@@ -24,28 +24,6 @@ This project uses machine learning to classify IMDB movie reviews as **positive*
 
 ---
 
-## 📁 Project Structure
-
-fastapi_sentiment_analysis/
-│
-├── data/
-│   └── imdb.csv                         # Raw dataset
-│
-├── ml/
-│   ├── train_model.py                   # Training script
-│   ├── model.pkl                        # Trained Logistic Regression model
-│   └── vectorizer.pkl                   # Trained TF-IDF vectorizer
-│
-├── app/
-│   ├── main.py                          # FastAPI app
-│   ├── schemas.py                       # Request/response models
-│   └── utils.py                         # Text preprocessing and prediction functions
-│
-├── requirements.txt                     # Python dependencies
-├── README.md                            # This file
-└── .gitignore                           # Git ignored files
-
----
 
 ## ⚙️ Setup Instructions
 
